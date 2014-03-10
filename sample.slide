@@ -1,0 +1,23 @@
+Sample Presentation
+10 Mar 2014
+Tags: go golang 
+
+Satish Talim
+Go Hobbyist
+satish@joshsoftware.com
+http://satishtalim.com/
+@IndianGuru
+
+* Who is this guy?
+
+.image ./talim.jpg
+
+- Programming addict
+- C, Java, Ruby, Go
+- Director, JoshSoftware
+.link http://www.joshsoftware.com/team The JoshSoftware team
+
+* Example Go code
+
+.play hello.go
+
