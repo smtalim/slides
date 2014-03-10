@@ -25,34 +25,36 @@ If history is anything to go by it seems inevitable that a new language will dom
 
 * What's Go?
 
-* 1
+* Go is...
 
-Go is the [[http://www.amazon.com/gp/product/B007Y6KDTG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007Y6KDTG&linkCode=as2&tag=satishtalimsw-20][most exciting]] new mainstream language to appear in atleast 15 years and is the first such language that is *aimed*squarely*at*21st*century*computers* - and their programmers.
+the [[http://www.amazon.com/gp/product/B007Y6KDTG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007Y6KDTG&linkCode=as2&tag=satishtalimsw-20][most exciting]] new mainstream language to appear in atleast 15 years and is the first such language that is *aimed*squarely*at*21st*century*computers* - and their programmers.
 
-* 2
+* Go has...
 
-Go has been in development at Google since 2007 and as an open source project since 2009.
+been in development at Google since 2007 and as an open source project since 2009.
 
-* 3
+* Go design
 
 [[http://www.amazon.com/gp/product/1469769166/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1469769166&linkCode=as2&tag=satishtalimsw-20][Google researchers]] designed the Go programming language that helped them solve the problems they had:
 
 - software needs to be built quickly,
-- the language should run well on modern multi-core hardware, work well in a networked environment, be a pleasure to use.
+- the language should *run*well*on*modern*multi-core*hardware*,
+- work well in a networked environment, 
+- be a pleasure to use.
 
-* 4
+* With Go...
 
-_With_Go_you_code_less,_compile_quicker,_execute_faster_=>_have_more_fun!_
+you code less, compile quicker, execute_faster => have more fun! 
 
 .play hello.go
 
-* 5
+* Python and Ruby programmers...
 
-Python and Ruby programmers come to Go because they don't have to surrender much expressiveness, but gain performance and get to play with concurrency.
+come to Go because they don't have to surrender much expressiveness, but gain performance and get to play with [[http://commandcenter.blogspot.de/2012/06/less-is-exponentially-more.html][concurrency]].
 
-* 6
+* Go is a language...
 
-Go is a language that has the feel of a dynamic language like Ruby or Python, but has the performance and safety of languages like C or Java. It is a completely open-source language, distributed with a BSD license, so it can be used by everybody even for commercial purposes without a fee, and it can even be changed by others.
+that has the feel of a dynamic language like Ruby or Python, but has the [[http://www.amazon.com/gp/product/1469769166/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1469769166&linkCode=as2&tag=satishtalimsw-20][performance and safety]] of languages like C or Java. It is a completely open-source language, distributed with a BSD license, so it can be used by everybody even for commercial purposes without a fee, and it can even be changed by others.
 
 * Uses of the language
 
@@ -65,8 +67,21 @@ Go:
 
 However, Go is _not_suited_ for real-time software because of its garbage collection and automatic memory allocation.
 
-* Who use Go?
+* Organizations using Go
 
+Since May 2010, Go is used in production at Google for the back-end infrastructure, e.g. writing programs for administering complex environments. Google wants to invest in it and the language is production-worthy.
+
+Go is being used in many organizations beyond Google like [[http://www.quora.com/Go-programming-language/Is-Google-Go-ready-for-production-use/answer/Kunal-Anand][BBC Worldwide]], [[https://plus.google.com/114945221884326152379/posts/d1SVaqkRyTL][Novartis]], [[https://plus.google.com/114945221884326152379/posts/d1SVaqkRyTL][bitly]], [[http://torbit.com/blog/2013/02/19/big-data-at-torbit/][Torbit]], [[https://blog.cyphertite.com/go-at-conformal/][Conformal]] and [[http://blog.golang.org/go-at-heroku][Heroku]] to name a few. 
+
+* Go International Conferences
+
+[[http://www.gophercon.com/][The First Ever Go Conference]] is being held in Denver CO, USA this April and their sponsors list has some interesting company names like Ubuntu, Paypal, Apcera, Stripe, Poptip, Canonical, Iron.io amongst many others.
+
+.image ./gophercon.jpg
+
+I will be representing my company Josh Software at the conference.
+
+The [[http://www.dotgo.eu/][First Ever European Go Conference]] is being held in Paris France this October.
 
 * Go Features
 
