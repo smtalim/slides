@@ -1,7 +1,7 @@
 Go based presentations
 ----------------------
 
-* [Sample](http://talks.godoc.org/github.com/lagomeetup/talks/2014/gorilla.slide)
+* [Sample](http://blog.joshsoftware.com/2014/03/10/how-do-i-create-a-presentation-using-go/)
 
 Enjoy!!
 
