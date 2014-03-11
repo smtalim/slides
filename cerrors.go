@@ -1,7 +1,10 @@
-// hello.go
+// cerrors.go
 package main
 
-import "fmt"
+import (
+        "fmt"
+        "os"
+)
 
 func main() {
         fmt.Println("Hello Pune Gophers!")
