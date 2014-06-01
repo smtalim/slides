@@ -1,0 +1,85 @@
+Why Use Sourcegraph?
+31 May 2015
+Tags: go golang sourcegraph
+
+Satish Talim
+@IndianGuru
+
+* Who is this guy?
+- Programming addict
+- C, Java, Ruby, Go
+
+* What's Sourcegraph?
+
+Sourcegraph is a code search engine that shows you documentation and real-world usage examples for hundreds of thousands of libraries written in Go and Ruby.
+
+* Getting Started
+
+[[https://sourcegraph.com/join][Sign up]] with your GitHub account (no private data is requested). Signing in is optional, but it helps Sourcegraph find all of your open-source code and attribute it to you.
+
+* How Do I Use It?
+
+We shall build a small Go program and use Sourcegraph along the way. This simple application: given a GitHub username, it fetches that person's company and full name.
+
+* Assumptions
+
+I am assuming that you have:
+
+- downloaded and installed Go.
+- set the environment variable `GOROOT`.
+- set up the workspace and environment variable `GOPATH`.
+- updated the system environment variable `PATH` to include your workspace `bin` subdirectory.
+- setup the package path. I have it set to `c:\go_projects\go\src\github.com\SatishTalim`
+
+Make a new folder and cd to it as follows:
+
+`$`mkdir`$GOPATH/src/github.com/SatishTalim/sourcegraph`
+`$`cd`$GOPATH/src/github.com/SatishTalim/sourcegraph`
+
+If you are new to Go, you can download my [[https://leanpub.com/buildingapackageingo][free eBook]] that covers all of the above.
+
+* sourcegraph.go - Outline 1
+
+Let's get started. I have a very basic outline of the code `sourcegraph.go`.
+
+.play outline1.go
+
+First, I want to make a Http request to the GitHub API. Next I would like to parse the JSON response and determine that person's name and company.
+
+* Step 1
+
+I want to take some user input using the `flag` package. However, I haven't used this package much and bad at remembering how to exactly use it. I would definitely like to know how. So, let us look it up on [[sourcegraph][https://sourcegraph.com/]].
+
+Let's type `flag`golang` as seen below:
+
+.image ./sourcegraph1.png
+
+If you see `package`flag` there are over 33,000 examples of usage of `flag` on `sourcegraph`. That's good. Let's click on that.
+
+* Step 2
+
+In the image below, you can see the functions and other definitions in the package `flag`. On the right you can see how many times it has been used by other people.
+
+.image ./sourcegraph2.png
+
+Click on the Examples link on the left and see some quick examples of how it is used.
+
+* Step 3
+
+Scroll down and see which example is similar to the one you want to write. I think `marvin.go` seems to be what I want.
+
+.image ./sourcegraph3.png
+
+Click on `marvin.go` to load the full example as seen in the next slide.
+
+* Step 4
+
+.image ./sourcegraph4.png
+
+I think I will use `flag.String` and `flag.Parse()`. Let us open up `sourcegraph.go`.
+
+* Step 5
+
+Let's type in the program as follows:
+
+.play outline2.go
